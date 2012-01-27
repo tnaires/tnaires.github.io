@@ -1,0 +1,31 @@
+body {
+  font-family: monospace;
+  font-size: 14px;
+  background-color: black;
+  color: green;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+  border: 1px solid white;
+}
+
+hr {
+  color: green;
+}
+
+a:link, a:visited {
+  color: green;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+a:active {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tarso Nunes Aires (tnaires)</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <script>
+      /*
+        Function adapted from http://stackoverflow.com/questions/4060004/calculate-age-in-javascript
+      */
+      function age() {
+        var birthDate = new Date(1981, 9, 2);
+        var today = new Date();
+        var result = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          result--;
+        }
+        
+        return result;
+      }
+    </script>
+  </head>
+  <body>
+    <img src="images/me.jpg" />
+    <br />
+    <h1>Welcome to <a href="http://github.com/tnaires">tnaires's</a> page!</h1>
+    <br />
+    <h2>About me</h2>
+    <p>
+      My name is Tarso Nunes Aires and I'm <script>document.write(age());</script> years old. I was borned and raised in <a href="http://en.wikipedia.org/wiki/Natal,_Rio_Grande_do_Norte">Natal/RN, Brazil</a> and I lived there until 2011, when I moved to <a href="http://en.wikipedia.org/wiki/Porto_alegre">Porto Alegre/RS</a>.
+    </p>
+    <h2>How I started to learn programming</h2>
+    <p>
+      Before I met computers, I studied Chemistry at <a href="http://en.wikipedia.org/wiki/UFRN">UFRN</a>. I learned to program in <a href="http://en.wikipedia.org/wiki/QuickBasic">QuickBASIC</a> in order to write programs to make some calculations using the data readed from a <a href="http://en.wikipedia.org/wiki/Potentiostat">potentiostat</a> (no, it's not as complicated as it seems). Since then my love for programming increased a lot, so I gave up the Chemistry and started to study Computer Science at the same university.
+    </p>
+    <h2>Interests (not limited to this)</h2>
+    <ul>
+      <li>Programming!</li>
+      <li>Drums!</li>
+      <li>Tennis!</li>
+      <li>Games!</li>
+      <li>Soccer!</li>
+      <li>Know (more) people!</li>
+    </ul>
+    <hr />
+    <p>
+      This website was created as a exercise for the Ruby web programming course at <a href="http://rubylearning.com">Ruby Learning</a>.
+    </p>
+  </body>
+</html>
