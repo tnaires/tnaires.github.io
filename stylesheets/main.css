@@ -1,31 +1,37 @@
+html {
+  background-color: #ecf0f1;
+}
+
 body {
-  font-family: monospace;
-  font-size: 14px;
-  background-color: black;
-  color: green;
+  text-align: center;
+  margin: 20px 50px 20px 50px;
+  padding: 50px;
+  border: 1px solid #bdc3c7;
+  color: #2c3e50;
+  background-color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-img {
-  float: left;
-  margin-right: 20px;
-  border: 1px solid white;
+h1 {
+  margin-bottom: 0;
 }
 
-hr {
-  color: green;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-a:link, a:visited {
-  color: green;
-  font-weight: bold;
+header img {
+  width: 200px;
 }
 
-a:hover {
-  color: white;
-  font-weight: bold;
+footer {
+  margin-top: 40px;
+  padding-top: 5px;
+  border-top: 1px solid #2c3e50;
+  font-size: 12px;
 }
 
-a:active {
-  color: red;
-  font-weight: bold;
+footer p {
+  margin-top: 0;
 }
